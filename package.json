@@ -1,6 +1,6 @@
 {
-  "name": "esbuild-plugin-pino",
-  "version": "2.2.0",
+  "name": "@swimm/esbuild-plugin-pino",
+  "version": "2.2.1+swimm",
   "description": "An esbuild plugin to generate extra pino files for bundling",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -36,6 +36,7 @@
   "files": [
     "dist"
   ],
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
   "devDependencies": {
     "@biomejs/biome": "^1.8.0",
     "@types/node": "20.16.5",
