@@ -1,6 +1,6 @@
 {
   "name": "@swimm/esbuild-plugin-pino",
-  "version": "2.2.4+swimm",
+  "version": "2.2.5+swimm",
   "description": "An esbuild plugin to generate extra pino files for bundling",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -39,21 +39,21 @@
   "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@types/node": "22.9.0",
-    "esbuild": "0.24.0",
-    "execa": "9.5.1",
-    "nodemon": "3.1.7",
-    "pino": "9.5.0",
-    "pino-loki": "2.3.1",
-    "pino-pretty": "12.1.0",
-    "pkgroll": "2.5.1",
+    "@types/node": "22.13.10",
+    "esbuild": "0.25.1",
+    "execa": "9.5.2",
+    "nodemon": "3.1.9",
+    "pino": "9.6.0",
+    "pino-loki": "2.5.0",
+    "pino-pretty": "13.0.0",
+    "pkgroll": "2.11.2",
     "standard-version": "9.5.0",
     "thread-stream": "3.1.0",
-    "tsx": "4.19.2",
-    "typescript": "5.6.3",
-    "vitest": "2.1.4"
+    "tsx": "4.19.3",
+    "typescript": "5.8.2",
+    "vitest": "3.0.8"
   },
   "peerDependencies": {
-    "esbuild": ">=0.17.1 <=0.24.0"
+    "esbuild": ">=0.25.0 <=0.25.1"
   }
 }
