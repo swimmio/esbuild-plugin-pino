@@ -1,6 +1,6 @@
 {
   "name": "@swimm/esbuild-plugin-pino",
-  "version": "2.2.6+swimm",
+  "version": "2.2.7+swimm",
   "description": "An esbuild plugin to generate extra pino files for bundling",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -13,6 +13,7 @@
   "repository": "https://github.com/davipon/esbuild-plugin-pino",
   "bugs": "https://github.com/davipon/esbuild-plugin-pino/issues",
   "scripts": {
+    "prepack": "pnpm build",
     "dev": "nodemon",
     "build": "pkgroll",
     "buildJS": "pkgroll && node test/buildScripts/buildJS.js",
