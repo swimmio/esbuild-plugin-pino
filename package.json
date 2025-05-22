@@ -1,6 +1,6 @@
 {
   "name": "@swimm/esbuild-plugin-pino",
-  "version": "2.2.5+swimm",
+  "version": "2.2.6+swimm",
   "description": "An esbuild plugin to generate extra pino files for bundling",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
